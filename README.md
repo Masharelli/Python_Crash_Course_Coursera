@@ -90,3 +90,49 @@ Return Values
 
 If you wan to return a value and later use it in your code, here is where you can use `return`
  
+ ### Conditionals
+
+Boolean is One of two possible states: either true or false
+
+Logical operators are the words `and, or, not` to evaluate as true, the and operator would need both expressions to be true at the same time.
+
+If we use the `or` operator, insteadm the expression wibb be true if either of the expressions are ture, and false only whern both expression are false.
+
+The following examples demostrate how to use comparasion operators with the data types int and float.
+
+- `==`(Equality)
+- `!=` (Not equal to)
+- `>` (Greater than)
+- `<` (Less than)
+- `>=` (Greater than or equal to)
+- `<=` (less than or equal to)
+
+Branching is the ability of a program to alter its execution sequence
+
+`def hint_username(username):
+    if len(username) < 3:
+        print ("Invalid username. Must be at least 3 character long")`
+
+The body of the if block will only execute when the condition evaluates to true; otherwise it's skipped
+
+Else statement
+
+`def hint_username(username):
+    if len(username) < 3:
+        print("Invalid username. Must be at least 3 characters long")
+    else:
+        print("Valid username")
+#This code will not have an output. `
+
+Modulo operator, which is represented by the percent sign: %. This operator performs integer division. but only returns the remainder of this division operation. If we’re dividing 5 by 2, the quotient is 2, and the remainder is 1
+
+Elif in this case is when the first `if = False` then the `elif` statement enter to action
+
+`def hint_username(username):
+    if len(username) < 3:
+        print("Invalid username. Must be at least 3 characters long")
+    elif len(username) > 15:
+        print("Invalid username. Must be at most 15 characters long")
+    else:
+        print("Valid username")`
+        
