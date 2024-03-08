@@ -135,4 +135,38 @@ Elif in this case is when the first `if = False` then the `elif` statement enter
         print("Invalid username. Must be at most 15 characters long")
     else:
         print("Valid username")`
-        
+
+### While Loops
+
+Whiles loops are bucles that help you to do a routine, While loops always are true, so the condition repeat since the statement become false.
+`i = 0
+While i < 5:
+    print('value of i =', i )
+    i += 1`
+    
+With the `break` statement we can stop the loop even if the while condition is true:
+
+`i = 1
+while i < 6:
+  print(i)
+  if i == 3:
+    break
+  i += 1`
+
+With the continue statement we can stop the current iteration, and continue with the next:
+
+`i = 0
+while i < 6:
+  i += 1
+  if i == 3:
+    continue
+  print(i)`
+
+With the else statement we can run a block of code once when the condition no longer is true:
+
+`i = 1
+while i < 6:
+  print(i)
+  i += 1
+else:
+  print("i is no longer less than 6")`
